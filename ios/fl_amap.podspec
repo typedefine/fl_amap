@@ -14,6 +14,8 @@ A new Flutter plugin.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'ExternalAccessory'
+  s.libraries = 'c++', 'z'
  # s.dependency 'AMapLocation'
   # 引入本地 framework
   s.ios.vendored_frameworks = 'Frameworks/AMapFoundationKit.framework', 'Frameworks/AMapLocationKit.framework'
