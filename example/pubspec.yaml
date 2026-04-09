@@ -1,0 +1,23 @@
+name: example
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  fl_amap:
+    path: ../
+  flutter:
+    sdk: flutter
+  fl_extended: ^1.7.2
+  fl_dio: ^1.4.0
+  permission_handler: ^11.4.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
